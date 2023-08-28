@@ -1,0 +1,13 @@
+{
+    "ignore": ["docs/*", "public/*", "dist/*"],
+    "verbose": true,
+    "watch": ["src/**"],
+    "execMap": {
+      "js": "node --harmony"
+    },
+    "env": {
+      "DEBUG": "express:api",
+      "NODE_ENV": "development"
+    },
+    "ext": "ts,js,json"
+  }
